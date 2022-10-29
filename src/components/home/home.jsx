@@ -10,7 +10,7 @@ import slack from "./slack.png"
 export default function Home() {
   return (
     <div>
-      <div className='profile-pics'><img src={image} alt="profile image" className='profile__img' id='profile__img' /></div>
+      <div className='profile-pics'><img src={image} alt="profile" className='profile__img' id='profile__img' /></div>
       <h3 className="link-button">Oluwakayode Adeyemi</h3>
       {/*<div>
        {Link.map((btnlinkA)=> (
