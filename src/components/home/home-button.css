@@ -28,11 +28,19 @@
 }
 .profile__img{
     max-width: 50%;
- 
-    max-height: 50%;
+     max-height: 50%;
+     width: 25%;
     background-color: #92C8FF;
     border-radius: 50%;
 }
+h3.link-button{
+    margin-bottom: 2.5rem;
+}
+@media only screen and (min-width:761px) {
+    .profile__img{
+        width: 9%;
+    }
+    }
 .profile-pics{
     margin-top: 3rem;
 
