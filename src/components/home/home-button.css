@@ -1,0 +1,75 @@
+
+@media only screen and (min-width:761px) {
+    .link-btn-left{
+        margin: 0 2.5rem
+    }
+}
+.link-btn{
+   
+    margin: 0 auto;
+    padding: .5rem;
+     
+}
+.link-btn.hidden{
+    display: none;
+}
+.btns{
+    padding: 1rem;
+    width: 90%;
+    border-radius: .5rem;
+    border: none;
+    margin: 0 auto;
+    background: #EAECF0;
+}
+.btns:hover{
+  
+    background: #D0D5DD;
+
+}
+.profile__img{
+    max-width: 50%;
+ 
+    max-height: 50%;
+    background-color: #92C8FF;
+    border-radius: 50%;
+}
+.profile-pics{
+    margin-top: 3rem;
+
+}
+.socialWrap{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+ margin: 3rem auto;   
+}
+.flexWrap{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+margin: 4rem 0;
+padding: 1rem;
+border-top: 1px solid #92C8FF;
+
+}
+.zuriImg{
+    margin: .5rem 0 0;
+}
+@media only screen and (min-width:761px) {
+.flexWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.zuriText{
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.zuriImg{
+    margin: 0;
+}
+}
